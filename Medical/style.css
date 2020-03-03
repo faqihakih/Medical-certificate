@@ -1,0 +1,40 @@
+/* body{
+    margin: 25px;
+}
+
+.certificate{
+    text-align: center;
+} */
+table{
+    empty-cells: hide;
+}
+.table1{
+    margin-left: 19px;
+}
+.table2{
+    margin-left: -31px;
+}
+.lebar{
+    width: 60px;
+}
+.tinggi{
+    height: 54px;
+}
+.tinggi2{
+    height: 27px;
+}
+.tinggi3{
+    height: 34px;
+}
+.tinggi4{
+    height: 150px;
+}
+.tinggi5{
+    height: 200px;
+}
+.tinggi6{
+    height: 73px;
+}
+.teks{
+    text-align: right;
+}
