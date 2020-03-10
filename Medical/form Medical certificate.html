@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Medical Certificate</title>
+</head>
+
+<body>
+    <form action="">
+
+        <div class="container">
+            <h1 align="right" class="mr-6">MEDICAL CERTIFICATE</h1>
+        <P align="center">This certificate is issued under yhe provision of regulation I/9 of STCW convertion, 1978 as amended</P>
+            <div class="card" style="width: 100%;">
+                <div class="card-body">
+                    Name : <input type="text" id="nama"><br>
+
+                    Date of birthday : <input type="text" id="birthday"><br>
+
+                    Sex : <input type="text" id="Sex"><br>
+
+                    Nationality : <input type="text" id="nationality"><br>
+                </div>
+            </div>
+
+            <div class="card" style="width: 100%;">
+                <div class="card-body">
+                    Height : <input type="text" id="height"><br>
+
+                    Weight : <input type="text" id="weight"><br>
+
+                    Abdominal circumferense : <input type="text" id="abdominal"><br>
+
+                    breathing capacity: <input type="text" id="breathing"><br>
+
+                    Physical Ability : <input type="text" id="physical"><br>
+                </div>
+            </div>
+
+            <div class="card" style="width: 100%;">
+                <div class="card-body">
+                    Color vision unaided :
+                    <select name="" id="colorVision">
+                        <option value="Abnormal">Abnormal</option>
+                        <option value="Normal">Normal</option>
+                    </select> <br>
+
+                    Distance vision unaided : <br>
+                    Right : <select name="" id="rightDistane">
+                        <option value="Abnormal">Abnormal</option>
+                        <option value="Normal">Normal</option>
+                    </select>
+                    Left : <select name="" id="leftDistane">
+                        <option value="Abnormal">Abnormal</option>
+                        <option value="Normal">Normal</option>
+                    </select>
+                    Combine : <select name="" id="combineDistane">
+                        <option value="Abnormal">Abnormal</option>
+                        <option value="Normal">Normal</option>
+                    </select><br>
+                </div>
+            </div>
+
+            <div class="card" style="width: 100%;">
+                <div class="card-body">
+                    Unaided hearing :
+                    Right : <select name="" id="rightHearing">
+                        <option value="Abnormal">Abnormal</option>
+                        <option value="Normal">Normal</option>
+                    </select>
+                    Left : <select name="" id="leftHearing">
+                        <option value="Abnormal">Abnormal</option>
+                        <option value="Normal">Normal</option>
+                    </select><br>
+
+                    Grip :
+                    <select name="" id="Grip">
+                        <option value="Right">Right</option>
+                        <option value="Left">Left</option>
+                    </select> <br>
+
+                    Stoole exam : <br> Parasite egg : <input type="text" id="parasite"> <br>
+                    Hemoglobine : <input type="text" id="Hemoglobine"><br>
+                </div>
+            </div>
+
+            <div class="card" style="width: 100%;">
+                <div class="card-body">
+                    Urinalysis : Albumin : <input type="text" id="albumin">
+                    sugar : <input type="text" id="sugar"><br>
+
+                    Blood Type : <input type="text" id="bloodtype"><br>
+
+                    Blood preusre : Systotic : <input type="text" id="systotic">
+                    Diastotic : <input type="text" id="diastotic"><br>
+
+                    Blood Glucose : <input type="text" id="bloodGlucose"><br>
+
+                    Blood lipid exam : <br>
+                    LDL cholestrol : <input type="text" id="LDL"> <br>
+                    Trilyceride : <input type="text" id="trilyceride"><br> HDL cholestrol : <input type="text" id="HDL"><br>
+
+                    Hepatic function exam : <br> GOT Glumatic oxaloatic transaminase : <input type="text" id="GOT"> <br>
+                    GPT Glumatic pyruvic transaminase : <input type="text" id="GPT"><br> GTP Glutanyl transpeptidase :
+                    <input type="text" id="GTP"><br>
+                </div>
+            </div>
+
+            <div class="card" style="width: 100%;">
+                <div class="card-body">
+                    Chest X-ray exam : <br> Date 0f photographing : <input type="text" id="photographing"><br>
+                    Film NO : <input type="text" id="FilmNo"><br>
+
+                    Sputum exam : <input type="text" id="sputum"><br>
+
+                    Electrocardiogram exam : <input type="text" id="electrocardiogram"><br>
+                </div>
+            </div>
+
+           <div class="card" style="width: 100%;">
+                <div class="card-body">
+                    Medical history : <input type="text" id="MedicalHistory"><br>
+
+                    Medical history of family: <input type="text" id="MedicalHistoryFamily"><br>
+
+                    Introtiont (fit or unfit for looking out duties, limitation for service at sea,etc) by doctor:
+                    <input type="text" id="intruction"><br>
+
+                    Remakrs : <input type="text" id="remaks"><br>
+
+                    Diagnosis : <br>
+                    <input type="radio" value="Fit" id="Fit">Fit
+                    <input type="radio" value="Unfit" id="Unfit">Unfit <br>
+
+                    Date of Diagnosis : <input type="text" id="DateDiagnosis"><br>
+
+                    Expiry date (1 year from diagnosis): <input type="text" id="expiry"><br>
+                </div>
+            </div>
+
+            <div class="card" style="width: 100%;">
+                <div class="card-body">
+                    Signature of holder of this certificate : <input type="text" id="SignatureHolder"><br>
+
+                    Signature of docter addres and stamp of the hospital : <input type="text" id="SignatureDoctor"><br>
+            
+                    Write name and date of birth in clear block style : <input type="text" id="WriteName"><br>
+                </div>
+            </div>
+            <div class="text-center" width="100px">
+                <button type="button submit" class="btn btn-success" value="Submit">SUBMIT</button>
+            </div>
+        </div>
+
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+    <style>
+        *{
+            margin: 10px 10px;
+        }
+        input{
+            width: 100%;
+        }
+    </style>
+    <script>
+        const name = document.querySelector('#name').value;
+        const birthday = document.querySelector('#birthday').value;
+        const Sex = document.querySelector('#Sex').value;
+        const nationality = document.querySelector('#nationality').value;
+        const height = document.querySelector('#height').value;
+        const weight= document.querySelector('#weight').value;
+        const abdominal = document.querySelector('#abdominal').value;
+        const breathing = document.querySelector('#breathing').value;
+        const physical = document.querySelector('#physical').value;
+        const breathing = document.querySelector('#breathing').value;
+        const colorVision = document.querySelector('#colorVision').value;
+        const rightDistane = document.querySelector('#rightDistane').value;
+        const leftDistane = document.querySelector('#leftDistane').value;
+        const combineDistane = document.querySelector('#combineDistane').value;
+        const rightHearing = document.querySelector('#rightHearing').value;
+        const leftHearing = document.querySelector('#leftHearing').value;
+        const Grip = document.querySelector('#Grip').value;
+        const parasite = document.querySelector('#parasite').value;
+        const Hemoglobine = document.querySelector('#Hemoglobine').value;
+        const albumin = document.querySelector('#albumin').value;
+        const sugar = document.querySelector('#sugar').value;
+        const bloodtype = document.querySelector('#bloodtype').value;
+        const systotic = document.querySelector('#systotic').value;
+        const diastotic = document.querySelector('#diastotic').value;
+        const bloodtype = document.querySelector('#bloodtype').value;
+        const bloodGlucose = document.querySelector('#bloodGlucose').value;
+        const LDL = document.querySelector('#LDL').value;
+        const trilyceride = document.querySelector('#trilyceride').value;
+        const HDL = document.querySelector('#HDL').value;
+        const GOT = document.querySelector('#GOT').value;
+        const GPT = document.querySelector('#GPT').value;
+        const GTP = document.querySelector('#GTP').value;
+        const photographing = document.querySelector('#photographing').value;
+        const FilmNo = document.querySelector('#FilmNo').value;
+        const sputum = document.querySelector('#sputum').value;
+        const electrocardiogram = document.querySelector('#electrocardiogram').value;
+        const MedicalHistory = document.querySelector('#MedicalHistory').value;
+        const MedicalHistoryFamily = document.querySelector('#MedicalHistoryFamily').value;
+        const intruction = document.querySelector('#intruction').value;
+        const remaks = document.querySelector('#remaks').value;
+        const Fit = document.querySelector('#Fit').value;
+        const Unfit = document.querySelector('#Unfit').value;
+        const DateDiagnosis = document.querySelector('#DateDiagnosis').value;
+        const expiry = document.querySelector('#expiry').value;
+        const SignatureHolder = document.querySelector('#SignatureHolder').value;
+        const SignatureDoctor = document.querySelector('#SignatureDoctor').value;
+        const WriteName = document.querySelector('#WriteName').value;
+
+        
+        
+        
+    </script>
+</body>
+
+</html>
